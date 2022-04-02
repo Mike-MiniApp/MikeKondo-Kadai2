@@ -22,8 +22,8 @@ class CalculateViewController: UIViewController {
         super.viewDidLoad()
         number1TextField.delegate = self
         number2TextField.delegate = self
-        number1TextField.keyboardType = UIKeyboardType.numberPad
-        number2TextField.keyboardType = UIKeyboardType.numberPad
+        number1TextField.keyboardType = .numberPad
+        number2TextField.keyboardType = .numberPad
     }
     @IBAction private func tappedCalculateButton(_ sender: Any) {
         let num1: Float = Float(number1TextField.text ?? "") ?? 0
