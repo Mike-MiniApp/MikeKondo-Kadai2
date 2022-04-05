@@ -42,6 +42,7 @@
 		95BE5A7A27F05D0300453798 = {
 			isa = PBXGroup;
 			children = (
+				95238F8027F7CEE400D3A0BB /* .swiftlint.yml */,
 				95BE5A8527F05D0300453798 /* MikeKondo-Kadai2 */,
 				95BE5A8427F05D0300453798 /* Products */,
 			);
@@ -65,7 +66,6 @@
 				95BE5A8F27F05D0300453798 /* Assets.xcassets */,
 				95BE5A9127F05D0300453798 /* LaunchScreen.storyboard */,
 				95BE5A9427F05D0300453798 /* Info.plist */,
-				95238F8027F7CEE400D3A0BB /* .swiftlint.yml */,
 			);
 			path = "MikeKondo-Kadai2";
 			sourceTree = "<group>";
